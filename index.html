@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page de Connexion</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    .login-box {
+      background-color: #ffffff;
+      border-radius: 4px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+      width: 400px;
+    }
+    
+    .login-box h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .login-box input[type="text"],
+    .login-box input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+    }
+    
+    .login-box input[type="submit"] {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+    }
+    
+    .login-box p {
+      text-align: center;
+      margin-bottom: 0;
+    }
+    
+    .login-box p a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="login-box">
+      <h2>Connexion</h2>
+      <form method="POST" action>
+        <input type="text" name="username" placeholder="Nom d'utilisateur" required>
+        <input id="inputPassword" type="password" name="password" placeholder="Mot de passe" required>
+        <input id="bouton" type="submit" value="Se connecter">
+      </form>
+      <p>Vous n'avez pas de compte? <a href="#">S'inscrire</a></p>
+      <!-- flag{MONMDP@8123}-->
+    </div>
+  </div>
+  <script>
+
+  </script>
+</body>
+</html>
